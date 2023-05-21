@@ -35,7 +35,7 @@ jobs:
           echo "Free space:"
           df -h
     - name: Set up Python 3.x
-    - uses: actions/setup-python@v4
+      uses: actions/setup-python@v4
       with:
         python-version: '3.10' 
     - name: Prepare
